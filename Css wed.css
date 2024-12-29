@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.imgur.com/J6UhRkL.jpeg'); /* Sử dụng URL trực tiếp */
+  background-size: cover; /* Đảm bảo hình nền phủ kín toàn bộ trang */
+  background-position: center; /* Căn giữa hình nền */
+  background-repeat: no-repeat; /* Không lặp lại hình nền */
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.countdown div {
+  font-size: 20px;
+  background: rgba(30, 54, 20, 0.8); /* Nền tối trong suốt */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.countdown span {
+  font-size: 36px;
+  font-weight: bold;
+  display: block;
+}
+
